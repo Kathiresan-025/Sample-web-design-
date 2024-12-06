@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kathir.css">
+    <script src="kathir.js"></script>
+</head>
+<body>
+    <a href="#" onclick="document.getElementById('7639').style.display='block'" class="btn">login</a>
+
+    <div id="7639" class="modal">
+        <span onclick="document.getElementById('7639').style.display='none'"class="close" title="close modal">&times;</span>
+        <form action="#" class="modal-content animate">
+            <div class="container">
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Username" name="uname" required>
+
+                <label for="password">password</label>
+                <input type="password" placeholder="enter password" name="psw" required>
+
+                <button type="submit">login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" >Remember me
+                </label>
+            </div>
+            <div class="container" style="background-color: aliceblue;">
+            <a href="#" onclick="document.getElementById('7639').style.display='none'" class="cancelbtn">Cancel</a>
+            <span class="psw">forget <a href="#">password?</a></span>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
